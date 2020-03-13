@@ -28,6 +28,3 @@ for city in cities:
         for request in cities[city]:
             length = len(cities[city][request])
             file.write(str(request) + '\t' + str(length) + '\n')
-
-
-# {city:{request:{()}}}
